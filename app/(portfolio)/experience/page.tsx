@@ -1,9 +1,14 @@
 "use client";
-
+import { ReactNode } from "react";
 import { motion } from "framer-motion";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Briefcase, GraduationCap } from "lucide-react";
+
+interface TimelineItemProps {
+  children: ReactNode;
+  isLast?: boolean;
+}
 
 const workExperience = [
   {
@@ -49,7 +54,7 @@ const education = [
   },
 ];
 
-const TimelineItem = ({ children, isLast = false }) => {
+const TimelineItem: React.FC<TimelineItemProps> = ({ children, isLast = false }) => {
   return (
     <div className="relative pl-8 pb-8">
       {!isLast && (
