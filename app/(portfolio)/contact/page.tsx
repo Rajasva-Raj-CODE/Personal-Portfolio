@@ -52,19 +52,19 @@ export default function ContactPage() {
     {
       icon: <Mail className="h-5 w-5 text-primary" />,
       title: "Email",
-      value: "john.doe@example.com",
-      link: "mailto:john.doe@example.com",
+      value: "7rajasvaraj@gmail.com",
+      link: "mailto:7rajasvaraj@gmail.com",
     },
     {
       icon: <Phone className="h-5 w-5 text-primary" />,
       title: "Phone",
-      value: "+1 (555) 123-4567",
+      value: "+91 8076522975",
       link: "tel:+15551234567",
     },
     {
       icon: <MapPin className="h-5 w-5 text-primary" />,
       title: "Location",
-      value: "San Francisco, CA",
+      value: "Noida, India",
       link: null,
     },
   ];

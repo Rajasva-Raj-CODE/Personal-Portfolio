@@ -6,7 +6,7 @@ import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { Button } from "@/components/ui/button";
 import { ThemeToggle } from "@/components/theme-toggle";
-import { Github, FileText, ArrowRight, Mail, Linkedin } from "lucide-react";
+import { Github, FileText, ArrowRight, Mail, Linkedin, Code2, Layout } from "lucide-react";
 import { motion } from "framer-motion";
 
 export default function Home() {
@@ -50,7 +50,7 @@ export default function Home() {
                 animate={{ opacity: 1 }}
                 transition={{ delay: 0.5, duration: 0.5 }}
               >
-                John Doe
+                Rajasva Raj Srivastava
               </motion.span>
             </h1>
             
@@ -71,31 +71,31 @@ export default function Home() {
             transition={{ delay: 0.9, duration: 0.5 }}
           >
             <Button asChild variant="outline" size="lg" className="gap-2 rounded-xl h-12">
-              <Link href="/resume.pdf" target="_blank">
+              <Link href="https://drive.google.com/file/d/1FDGcRKMXrYohKXnv7K__omfCQjzR9KKK/view?usp=sharing" target="_blank">
                 <FileText className="h-5 w-5" />
                 Resume
               </Link>
             </Button>
             
             <Button asChild variant="outline" size="lg" className="gap-2 rounded-xl h-12">
-              <Link href="https://github.com/johndoe" target="_blank">
+              <Link href="https://github.com/Rajasva-Raj-CODE" target="_blank">
                 <Github className="h-5 w-5" />
                 GitHub
               </Link>
             </Button>
             
             <Button asChild variant="outline" size="lg" className="gap-2 rounded-xl h-12">
-              <Link href="https://linkedin.com/in/johndoe" target="_blank">
+              <Link href="https://www.linkedin.com/in/rajasvaraj/" target="_blank">
                 <Linkedin className="h-5 w-5" />
                 LinkedIn
               </Link>
             </Button>
             
             <Button asChild variant="outline" size="lg" className="gap-2 rounded-xl h-12">
-              <Link href="mailto:john.doe@example.com">
+              <a href="mailto:7rajasvaraj@gmail.com">
                 <Mail className="h-5 w-5" />
                 Email
-              </Link>
+              </a>
             </Button>
           </motion.div>
           
@@ -126,8 +126,8 @@ export default function Home() {
           <div className="relative w-full max-w-md aspect-square">
             <div className="absolute inset-0 rounded-2xl overflow-hidden border-2 border-primary/20 shadow-xl">
               <Image
-                src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=1000&auto=format&fit=crop"
-                alt="John Doe"
+                src="https://i.ibb.co/21RVVz19/Whats-App-Image-2022-02-05-at-9-40-27-PM.jpg"
+                alt="Rajasva Raj"
                 fill
                 className="object-cover"
                 priority
@@ -135,11 +135,11 @@ export default function Home() {
             </div>
             
             <div className="absolute -bottom-4 -right-4 h-24 w-24 rounded-2xl bg-primary/10 backdrop-blur-sm border border-primary/20 flex items-center justify-center">
-              {/* <Code2 className="h-10 w-10 text-primary" /> */}
+              <Code2 className="h-10 w-10 text-primary" />
             </div>
             
             <div className="absolute -top-4 -left-4 h-24 w-24 rounded-2xl bg-primary/10 backdrop-blur-sm border border-primary/20 flex items-center justify-center">
-              {/* <Layout className="h-10 w-10 text-primary" /> */}
+              <Layout className="h-10 w-10 text-primary" />
             </div>
           </div>
         </motion.div>

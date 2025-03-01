@@ -11,45 +11,30 @@ interface TimelineItemProps {
 }
 
 const workExperience = [
+  
   {
     id: 1,
-    title: "Senior Frontend Developer",
-    company: "Tech Innovations Inc.",
-    period: "2021 - Present",
-    description: "Lead frontend development for multiple web applications, mentored junior developers, and implemented modern frontend architecture using React and Next.js.",
-    skills: ["React", "Next.js", "TypeScript", "Tailwind CSS"],
-  },
-  {
-    id: 2,
-    title: "Frontend Developer",
-    company: "Digital Solutions Ltd.",
-    period: "2018 - 2021",
-    description: "Developed responsive web applications, collaborated with UX/UI designers, and optimized application performance.",
-    skills: ["React", "JavaScript", "SCSS", "Redux"],
-  },
-  {
-    id: 3,
     title: "Junior Web Developer",
-    company: "WebCraft Agency",
-    period: "2016 - 2018",
-    description: "Built and maintained client websites, implemented responsive designs, and worked with content management systems.",
-    skills: ["HTML", "CSS", "JavaScript", "WordPress"],
+    company: "OWN Technologies",
+    period: "2024 - Present",
+    description: "Built and maintained user-friendly, modern interfaces and secure backend APIs. I specialize in responsive design using React, JavaScript, and Tailwind CSS on the front end, and I build efficient, secure backend systems with databases and server-side tools. ",
+    skills: ["HTML", "CSS", "JavaScript", "React.js", "Tailwind Css", "Express.js", "MongoDB", "Node.js",  "MySQL"],
   },
 ];
 
 const education = [
   {
     id: 1,
-    degree: "Master of Computer Science",
-    institution: "Tech University",
-    period: "2014 - 2016",
+    degree: "Master of Computer Application (MCA)",
+    institution: "ABES Engineering College",
+    period: "2021 - 2023",
     description: "Specialized in web technologies and user interface design. Graduated with honors.",
   },
   {
     id: 2,
-    degree: "Bachelor of Science in Computer Science",
-    institution: "State University",
-    period: "2010 - 2014",
+    degree: "Bachelor of Computer Application (BCA)",
+    institution: "Guru Gobind Singh Indraprastha University",
+    period: "2017 - 2020",
     description: "Focused on software development fundamentals and computer science theory.",
   },
 ];

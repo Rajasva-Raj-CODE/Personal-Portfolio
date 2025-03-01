@@ -93,7 +93,7 @@ export function Sidebar() {
               <div className="h-8 w-8 rounded-full bg-primary flex items-center justify-center">
                 <Home className="h-4 w-4 text-primary-foreground" />
               </div>
-              <h2 className="text-xl font-bold">John Doe</h2>
+              <h2 className="text-xl font-bold">Rajasva Raj</h2>
             </Link>
             <div className="md:hidden">
               <ThemeToggle />
@@ -133,7 +133,7 @@ export function Sidebar() {
             </div>
             <div className="pt-4 border-t border-border/50">
               <p className="text-xs text-muted-foreground">
-                © {new Date().getFullYear()} John Doe
+                © {new Date().getFullYear()} Rajasva Raj. All rights reserved.
               </p>
             </div>
           </div>

@@ -31,7 +31,7 @@ export default function AboutPage() {
             >
               <div className="relative aspect-square rounded-2xl overflow-hidden mb-4 shadow-md">
                 <Image
-                  src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=1000&auto=format&fit=crop"
+                  src="https://i.ibb.co/21RVVz19/Whats-App-Image-2022-02-05-at-9-40-27-PM.jpg"
                   alt="John Doe"
                   fill
                   className="object-cover transition-transform hover:scale-105 duration-500"
@@ -48,11 +48,11 @@ export default function AboutPage() {
                 <div className="space-y-2 text-sm">
                   <p className="flex justify-between">
                     <span className="text-muted-foreground">Email:</span>
-                    <span className="font-medium">john.doe@example.com</span>
+                    <span className="font-medium">7rajasvaraj@gmail.com</span>
                   </p>
                   <p className="flex justify-between">
                     <span className="text-muted-foreground">Location:</span>
-                    <span className="font-medium">San Francisco, CA</span>
+                    <span className="font-medium">Noida, India</span>
                   </p>
                 </div>
               </div>
@@ -70,7 +70,7 @@ export default function AboutPage() {
                   <h2 className="text-xl font-semibold mb-4">My Story</h2>
                   <div className="space-y-4 text-muted-foreground">
                     <p>
-                      I'm a passionate frontend developer with 5 years of experience creating 
+                      I'm a passionate frontend developer with 1 years of experience creating 
                       beautiful, responsive, and user-friendly web applications. My journey in web 
                       development began with a curiosity about how websites work and evolved into 
                       a deep expertise in modern frontend technologies.
@@ -80,11 +80,7 @@ export default function AboutPage() {
                       My approach to development focuses on creating performant applications that 
                       provide excellent user experiences across all devices.
                     </p>
-                    <p>
-                      When I'm not coding, you can find me hiking in the mountains, reading science 
-                      fiction novels, or experimenting with new cooking recipes. I'm also an active 
-                      contributor to open-source projects and enjoy attending tech meetups and conferences.
-                    </p>
+                 
                   </div>
                   
                   <div className="mt-6 pt-6 border-t">
