@@ -133,7 +133,7 @@ export function Sidebar() {
             </div>
             <div className="pt-4 border-t border-border/50">
               <p className="text-xs text-muted-foreground">
-                © {new Date().getFullYear()} Rajasva Raj. All rights reserved.
+                © 2025 Rajasva Raj. All rights reserved.
               </p>
             </div>
           </div>
